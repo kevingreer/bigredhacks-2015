@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cena" translatesAutoresizingMaskIntoConstraints="NO" id="n7M-Zt-rPc">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Af-Ji-ZwA">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="33"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="n7M-Zt-rPc" secondAttribute="trailing" id="Fp0-xG-mJC"/>
+                <constraint firstAttribute="bottom" secondItem="n7M-Zt-rPc" secondAttribute="bottom" id="MAY-ZI-gXa"/>
+                <constraint firstItem="1Af-Ji-ZwA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RVu-vm-iCW"/>
+                <constraint firstAttribute="trailing" secondItem="1Af-Ji-ZwA" secondAttribute="trailing" id="fFy-h0-fkS"/>
+                <constraint firstItem="n7M-Zt-rPc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mmq-af-ZH5"/>
+                <constraint firstItem="1Af-Ji-ZwA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sFe-6A-ub0"/>
+                <constraint firstAttribute="bottom" secondItem="1Af-Ji-ZwA" secondAttribute="bottom" id="tn4-VI-Eed"/>
+                <constraint firstItem="n7M-Zt-rPc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ud6-Yj-9Sv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cena" width="1072" height="1213"/>
+    </resources>
+</document>

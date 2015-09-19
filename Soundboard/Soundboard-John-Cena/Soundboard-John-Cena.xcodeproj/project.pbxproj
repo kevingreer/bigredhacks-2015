@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440F032A1BAD078900DF4B02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F03291BAD078900DF4B02 /* AppDelegate.swift */; };
+		440F032C1BAD078900DF4B02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F032B1BAD078900DF4B02 /* ViewController.swift */; };
+		440F032F1BAD078900DF4B02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440F032D1BAD078900DF4B02 /* Main.storyboard */; };
+		440F03311BAD078900DF4B02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440F03301BAD078900DF4B02 /* Images.xcassets */; };
+		440F03341BAD078900DF4B02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440F03321BAD078900DF4B02 /* LaunchScreen.xib */; };
+		440F03401BAD078900DF4B02 /* Soundboard_John_CenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F033F1BAD078900DF4B02 /* Soundboard_John_CenaTests.swift */; };
+		440F034A1BAD08AF00DF4B02 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440F03491BAD08AF00DF4B02 /* AVFoundation.framework */; };
+		440F03541BAD0CDE00DF4B02 /* cena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440F03531BAD0CDE00DF4B02 /* cena.mp3 */; };
+		440F03571BAD14CE00DF4B02 /* American Captain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 440F03561BAD146800DF4B02 /* American Captain.ttf */; };
+		441338BE1BADC99200184C22 /* cena.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 440F03581BAD15FF00DF4B02 /* cena.m4a */; };
+		441338C01BADDB9B00184C22 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441338BF1BADDB9B00184C22 /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		440F033A1BAD078900DF4B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440F031C1BAD078900DF4B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440F03231BAD078900DF4B02;
+			remoteInfo = "Soundboard-John-Cena";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		440F03241BAD078900DF4B02 /* JOHN CENA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JOHN CENA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440F03281BAD078900DF4B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440F03291BAD078900DF4B02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		440F032B1BAD078900DF4B02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		440F032E1BAD078900DF4B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		440F03301BAD078900DF4B02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		440F03331BAD078900DF4B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		440F03391BAD078900DF4B02 /* Soundboard-John-CenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soundboard-John-CenaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440F033E1BAD078900DF4B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440F033F1BAD078900DF4B02 /* Soundboard_John_CenaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soundboard_John_CenaTests.swift; sourceTree = "<group>"; };
+		440F03491BAD08AF00DF4B02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		440F03531BAD0CDE00DF4B02 /* cena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cena.mp3; sourceTree = "<group>"; };
+		440F03561BAD146800DF4B02 /* American Captain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "American Captain.ttf"; sourceTree = "<group>"; };
+		440F03581BAD15FF00DF4B02 /* cena.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cena.m4a; sourceTree = "<group>"; };
+		441338BF1BADDB9B00184C22 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440F03211BAD078900DF4B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441338C01BADDB9B00184C22 /* iAd.framework in Frameworks */,
+				440F034A1BAD08AF00DF4B02 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440F03361BAD078900DF4B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440F031B1BAD078900DF4B02 = {
+			isa = PBXGroup;
+			children = (
+				441338BF1BADDB9B00184C22 /* iAd.framework */,
+				440F03491BAD08AF00DF4B02 /* AVFoundation.framework */,
+				440F03261BAD078900DF4B02 /* Soundboard-John-Cena */,
+				440F033C1BAD078900DF4B02 /* Soundboard-John-CenaTests */,
+				440F03251BAD078900DF4B02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		440F03251BAD078900DF4B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440F03241BAD078900DF4B02 /* JOHN CENA.app */,
+				440F03391BAD078900DF4B02 /* Soundboard-John-CenaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440F03261BAD078900DF4B02 /* Soundboard-John-Cena */ = {
+			isa = PBXGroup;
+			children = (
+				440F03291BAD078900DF4B02 /* AppDelegate.swift */,
+				440F032B1BAD078900DF4B02 /* ViewController.swift */,
+				440F032D1BAD078900DF4B02 /* Main.storyboard */,
+				440F03301BAD078900DF4B02 /* Images.xcassets */,
+				440F03321BAD078900DF4B02 /* LaunchScreen.xib */,
+				440F03271BAD078900DF4B02 /* Supporting Files */,
+			);
+			path = "Soundboard-John-Cena";
+			sourceTree = "<group>";
+		};
+		440F03271BAD078900DF4B02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				440F03531BAD0CDE00DF4B02 /* cena.mp3 */,
+				440F03581BAD15FF00DF4B02 /* cena.m4a */,
+				440F03561BAD146800DF4B02 /* American Captain.ttf */,
+				440F03281BAD078900DF4B02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		440F033C1BAD078900DF4B02 /* Soundboard-John-CenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				440F033F1BAD078900DF4B02 /* Soundboard_John_CenaTests.swift */,
+				440F033D1BAD078900DF4B02 /* Supporting Files */,
+			);
+			path = "Soundboard-John-CenaTests";
+			sourceTree = "<group>";
+		};
+		440F033D1BAD078900DF4B02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				440F033E1BAD078900DF4B02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		440F03231BAD078900DF4B02 /* Soundboard-John-Cena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440F03431BAD078900DF4B02 /* Build configuration list for PBXNativeTarget "Soundboard-John-Cena" */;
+			buildPhases = (
+				440F03201BAD078900DF4B02 /* Sources */,
+				440F03211BAD078900DF4B02 /* Frameworks */,
+				440F03221BAD078900DF4B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soundboard-John-Cena";
+			productName = "Soundboard-John-Cena";
+			productReference = 440F03241BAD078900DF4B02 /* JOHN CENA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		440F03381BAD078900DF4B02 /* Soundboard-John-CenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440F03461BAD078900DF4B02 /* Build configuration list for PBXNativeTarget "Soundboard-John-CenaTests" */;
+			buildPhases = (
+				440F03351BAD078900DF4B02 /* Sources */,
+				440F03361BAD078900DF4B02 /* Frameworks */,
+				440F03371BAD078900DF4B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				440F033B1BAD078900DF4B02 /* PBXTargetDependency */,
+			);
+			name = "Soundboard-John-CenaTests";
+			productName = "Soundboard-John-CenaTests";
+			productReference = 440F03391BAD078900DF4B02 /* Soundboard-John-CenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		440F031C1BAD078900DF4B02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = KevinGreer;
+				TargetAttributes = {
+					440F03231BAD078900DF4B02 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = W8QNAR8FFJ;
+					};
+					440F03381BAD078900DF4B02 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 440F03231BAD078900DF4B02;
+					};
+				};
+			};
+			buildConfigurationList = 440F031F1BAD078900DF4B02 /* Build configuration list for PBXProject "Soundboard-John-Cena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 440F031B1BAD078900DF4B02;
+			productRefGroup = 440F03251BAD078900DF4B02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				440F03231BAD078900DF4B02 /* Soundboard-John-Cena */,
+				440F03381BAD078900DF4B02 /* Soundboard-John-CenaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		440F03221BAD078900DF4B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441338BE1BADC99200184C22 /* cena.m4a in Resources */,
+				440F032F1BAD078900DF4B02 /* Main.storyboard in Resources */,
+				440F03341BAD078900DF4B02 /* LaunchScreen.xib in Resources */,
+				440F03571BAD14CE00DF4B02 /* American Captain.ttf in Resources */,
+				440F03311BAD078900DF4B02 /* Images.xcassets in Resources */,
+				440F03541BAD0CDE00DF4B02 /* cena.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440F03371BAD078900DF4B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440F03201BAD078900DF4B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440F032C1BAD078900DF4B02 /* ViewController.swift in Sources */,
+				440F032A1BAD078900DF4B02 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440F03351BAD078900DF4B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440F03401BAD078900DF4B02 /* Soundboard_John_CenaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		440F033B1BAD078900DF4B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 440F03231BAD078900DF4B02 /* Soundboard-John-Cena */;
+			targetProxy = 440F033A1BAD078900DF4B02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		440F032D1BAD078900DF4B02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				440F032E1BAD078900DF4B02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		440F03321BAD078900DF4B02 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				440F03331BAD078900DF4B02 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		440F03411BAD078900DF4B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		440F03421BAD078900DF4B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		440F03441BAD078900DF4B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Soundboard-John-Cena/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KevinGreer.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "JOHN CENA";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		440F03451BAD078900DF4B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Soundboard-John-Cena/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KevinGreer.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "JOHN CENA";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		440F03471BAD078900DF4B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Soundboard-John-CenaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KevinGreer.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soundboard-John-Cena.app/Soundboard-John-Cena";
+			};
+			name = Debug;
+		};
+		440F03481BAD078900DF4B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Soundboard-John-CenaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KevinGreer.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soundboard-John-Cena.app/Soundboard-John-Cena";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440F031F1BAD078900DF4B02 /* Build configuration list for PBXProject "Soundboard-John-Cena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440F03411BAD078900DF4B02 /* Debug */,
+				440F03421BAD078900DF4B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440F03431BAD078900DF4B02 /* Build configuration list for PBXNativeTarget "Soundboard-John-Cena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440F03441BAD078900DF4B02 /* Debug */,
+				440F03451BAD078900DF4B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440F03461BAD078900DF4B02 /* Build configuration list for PBXNativeTarget "Soundboard-John-CenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440F03471BAD078900DF4B02 /* Debug */,
+				440F03481BAD078900DF4B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 440F031C1BAD078900DF4B02 /* Project object */;
+}
