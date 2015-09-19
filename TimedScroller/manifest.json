@@ -1,0 +1,20 @@
+{
+  "name": "TimedScroller",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description" : "Scrolls the page for you at set intervals of time.",
+  "icons": { "16": "icons/16x16.png", "48": "icons/48x48.png", "128": "icons/128x128.png" },
+
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/19x19.png",
+      "38": "icons/38x38.png"
+    },
+    "default_title": "Click to Scroll",
+    "default_popup": "browseraction/popup.html"
+  },
+
+    "permissions": [
+          "activeTab"
+        ]
+}
