@@ -5,7 +5,7 @@ document.getElementById("button").onclick = function() {
     textField.value = 4;
   
   var mstime = parseInt(textField.value);
-  console.log("swag");
+  
 
   chrome.tabs.executeScript(null, {
 
