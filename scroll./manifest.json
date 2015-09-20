@@ -1,5 +1,5 @@
 {
-  "name": "TimedScroller",
+  "name": "scroll.",
   "version": "1.0",
   "manifest_version": 2,
   "description" : "Scrolls the page for you at set intervals of time.",
