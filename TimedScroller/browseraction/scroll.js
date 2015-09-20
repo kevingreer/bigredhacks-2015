@@ -21,7 +21,10 @@ var smoothScroll = function(distance, duration) { //duration in milliseconds
     }
   }, incTime);
 }
+var returnID = function(){
+  return setInterval( function() { 
+    smoothScroll(window.innerHeight - 100, 100);
+  }, time);
+}
 
-setInterval( function() { 
-  smoothScroll(window.innerHeight - 100, 100);
-}, time);
+returnID();
